@@ -140,14 +140,11 @@ a { color: inherit; text-decoration: none; }
 }
 .nav__logo { display: flex; align-items: center; gap: 12px; }
 .nav__logo-mark {
-  background: linear-gradient(135deg, var(--accent), var(--accent-hot));
-  width: 42px; height: 42px;
-  border-radius: 12px;
+  width: 46px; height: 46px;
   display: grid;
   place-items: center;
-  box-shadow: 0 4px 16px rgba(230, 57, 43, 0.4);
 }
-.nav__logo-mark svg { width: 27px; height: 27px; display: block; }
+.nav__logo-mark img { width: 44px; height: auto; display: block; filter: drop-shadow(0 3px 8px rgba(230, 57, 43, 0.25)); }
 .nav__logo-text {
   font-family: var(--font-display);
   font-weight: 700;
